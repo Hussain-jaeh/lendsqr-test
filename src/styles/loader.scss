@@ -1,0 +1,19 @@
+.loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    height: 100vh; /* Full viewport height */
+     color:#39CDCC ;
+}
+
+.loader svg {
+    width: 50px; /* Adjust the size as needed */
+    height: 50px; /* Maintain aspect ratio */
+    animation: spin 1s linear infinite; /* Spin animation */
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
