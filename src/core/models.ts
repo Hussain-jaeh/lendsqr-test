@@ -13,3 +13,11 @@ export interface UserModel {
     socials: Object,
     userName: String,
 }
+export interface FilterValues {
+    organization?: string;
+    username?: string;
+    email?: string;
+    date?: string;
+    phone?: string;
+    status?: string;
+  }

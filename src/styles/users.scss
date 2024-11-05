@@ -283,3 +283,15 @@
 		padding: 10px 0;
 	}
 }
+.status-bar {
+	display: inline-flex;
+	align-items: center;
+	padding: 7px 14px;
+	border-radius: 100px;
+	font-size: 14px;
+	font-weight: 500;
+  }
+  
+  .status-text {
+	margin-left: 4px;
+  }

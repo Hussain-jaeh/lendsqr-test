@@ -56,7 +56,8 @@ const Users = () => {
                 {loading ? (
                     <Loader />
                 ) : (
-                    <>
+                    <>         
+                             {/* @ts-ignore */}
                         <UsersTable users={currentItems} loading={loading} />
                         <div className="users-paginate">
                             <div className="user-page-info">
