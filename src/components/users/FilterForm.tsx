@@ -13,7 +13,7 @@ const FilterForm: FC<Props> = ({ onFilter, onReset }) => {
     register,
     handleSubmit,
     reset,
-    formState: { errors }   
+   
   } = useForm<FilterValues>({
     mode: 'all'
   });

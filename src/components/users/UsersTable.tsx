@@ -22,7 +22,7 @@ interface Props {
 
 const tableHeaders = ['Organization', 'Username', 'Email', 'Phone number', 'Date joined', 'Status', ''];
 
-const UsersTable: FC<Props> = ({ users, loading }) => {
+const UsersTable: FC<Props> = ({ users,  }) => {
   const navigate = useNavigate();
   const [filteredUsers, setFilteredUsers] = useState<UserModel[] | null>(null);
   const [isFilterOpen, setIsFilterOpen] = useState<number | null>(null);
